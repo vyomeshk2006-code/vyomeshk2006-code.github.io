@@ -55,6 +55,8 @@
     </header>
 
     <main id="main">
+      <!-- Home -->
+
       <section class="hero wrap" id="home">
         <div class="hero-copy">
           <p class="eyebrow">
@@ -106,6 +108,8 @@
         </div>
       </section>
 
+      <!-- About -->
+
       <section class="wrap section about" id="about">
         <p class="eyebrow">01 / ABOUT</p>
 
@@ -139,6 +143,8 @@
         </div>
       </section>
 
+      <!-- Projects -->
+
       <section class="wrap section" id="projects">
         <div class="section-heading">
           <div>
@@ -152,253 +158,11 @@
           </p>
         </div>
 
-        <!-- LinkedIn Career Agent -->
+        <!-- 01: NASA Turbofan RUL Predictor -->
 
         <article class="project featured">
           <div class="project-meta">
-            <span>01 — AI APPLICATION</span>
-            <span>DEPLOYED</span>
-          </div>
-
-          <div class="project-split">
-            <div>
-              <div class="project-title">
-                <h3>LinkedIn Career Agent</h3>
-                <span class="project-arrow" aria-hidden="true">↗</span>
-              </div>
-
-              <p class="project-intro">
-                Turning a career goal into a clearer next step.
-              </p>
-
-              <div class="project-bottom">
-                <p>
-                  An AI-powered assistant for profile audits, career
-                  roadmaps, internship eligibility, job-fit feedback,
-                  and conversational follow-up.
-                </p>
-
-                <div class="tags">
-                  <span>Python</span>
-                  <span>Claude API</span>
-                  <span>Apify</span>
-                  <span>Streamlit</span>
-                  <span>pytest</span>
-                  <span>JSON</span>
-                </div>
-              </div>
-
-              <div class="actions">
-                <a
-                  class="text-link"
-                  href="https://linkedin-agent-07.streamlit.app/"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  Live Demo ↗
-                </a>
-
-                <a
-                  class="text-link"
-                  href="https://github.com/vyomeshk2006-code/linkedin-Agent"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  View Code ↗
-                </a>
-              </div>
-            </div>
-
-            <div class="project-visual">
-              <div class="evidence screenshot">
-                <img
-                  src="assets/career-agent.png"
-                  alt="Actual LinkedIn Career Agent Streamlit interface with profile analysis, career roadmap, internships, job-fit score, and other tools"
-                  width="2856"
-                  height="1530"
-                  loading="lazy"
-                  decoding="async"
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="technical-details">
-            <h4>Inside the project</h4>
-
-            <div class="detail-grid">
-              <div>
-                <h4>Purpose & contribution</h4>
-
-                <p>
-                  I built a deployed career assistant with 10 user-facing
-                  features, combining profile information with
-                  Claude-powered analysis and a Streamlit interface.
-                </p>
-
-                <h4>How it works</h4>
-
-                <p>
-                  Apify supports profile retrieval, Claude provides
-                  analysis, and persistent JSON session memory carries
-                  context into follow-up conversations.
-                </p>
-              </div>
-
-              <div>
-                <h4>Testing & evidence</h4>
-
-                <p>
-                  The project includes 23 pytest cases using mocked API
-                  calls. Testing identified an input-validation bug that
-                  was fixed during development.
-                </p>
-
-                <h4>Before trying the demo</h4>
-
-                <p>
-                  The demo requires your own Anthropic and Apify API
-                  keys. Enter them only in the demo, never on this
-                  portfolio. AI-generated career feedback should be
-                  reviewed in context.
-                </p>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- Email Summarizer -->
-
-        <article class="project">
-          <div class="project-meta">
-            <span>02 — WORKFLOW AUTOMATION</span>
-            <span>PYTHON SERVICE</span>
-          </div>
-
-          <div class="project-split">
-            <div>
-              <div class="project-title">
-                <h3>Email Summarizer</h3>
-                <span class="project-arrow" aria-hidden="true">↗</span>
-              </div>
-
-              <p class="project-intro">
-                Less inbox noise. A more focused start.
-              </p>
-
-              <div class="project-bottom">
-                <p>
-                  An automated Python service that retrieves recent Gmail
-                  messages, analyzes them with Claude, and emails a
-                  prioritized daily report.
-                </p>
-
-                <div class="tags">
-                  <span>Python</span>
-                  <span>Claude API</span>
-                  <span>Gmail API</span>
-                  <span>OAuth 2.0</span>
-                  <span>APScheduler</span>
-                  <span>Railway</span>
-                </div>
-              </div>
-
-              <div class="actions">
-                <a
-                  class="text-link"
-                  href="https://github.com/vyomeshk2006-code/Email-Summarizer"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  View Code ↗
-                </a>
-              </div>
-            </div>
-
-            <div class="project-visual">
-              <div
-                class="workflow"
-                role="img"
-                aria-label="Illustrative workflow: Gmail messages go through AI analysis to produce a prioritized summary"
-              >
-                <span class="workflow-label">
-                  ILLUSTRATIVE WORKFLOW
-                </span>
-
-                <div>
-                  <span class="flow-icon">✉</span>
-                  <strong>Gmail</strong>
-                  <small>Recent messages</small>
-                </div>
-
-                <span class="flow-arrow">→</span>
-
-                <div>
-                  <span class="flow-icon">✳</span>
-                  <strong>AI analysis</strong>
-                  <small>Claude API</small>
-                </div>
-
-                <span class="flow-arrow">→</span>
-
-                <div>
-                  <span class="flow-icon">≡</span>
-                  <strong>Prioritized summary</strong>
-                  <small>Delivered daily</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="technical-details">
-            <h4>Inside the project</h4>
-
-            <div class="detail-grid">
-              <div>
-                <h4>Purpose & contribution</h4>
-
-                <p>
-                  I connected Gmail retrieval, AI analysis, and email
-                  delivery into a scheduled Python service, with OAuth
-                  authentication and Railway deployment.
-                </p>
-
-                <h4>How it works</h4>
-
-                <p>
-                  The Gmail API retrieves recent messages. Claude
-                  organizes them into priority levels and suggested
-                  actions. APScheduler schedules execution, and the
-                  report is sent back by email.
-                </p>
-              </div>
-
-              <div>
-                <h4>Engineering focus</h4>
-
-                <p>
-                  OAuth 2.0, API integration, scheduled execution, and
-                  error handling turn an on-demand script into an
-                  automated workflow.
-                </p>
-
-                <h4>Limitations</h4>
-
-                <p>
-                  The service depends on valid Gmail authorization and
-                  API availability. AI-assigned priorities need human
-                  judgment. No public demo is available.
-                </p>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <!-- NASA Turbofan RUL Predictor -->
-
-        <article class="project">
-          <div class="project-meta">
-            <span>03 — MACHINE LEARNING & FULL-STACK DEVELOPMENT</span>
+            <span>01 — MACHINE LEARNING & FULL-STACK DEVELOPMENT</span>
             <span class="status">DEPLOYED</span>
           </div>
 
@@ -525,7 +289,249 @@
           </div>
         </article>
 
-        <!-- SARAS -->
+        <!-- 02: LinkedIn Career Agent -->
+
+        <article class="project">
+          <div class="project-meta">
+            <span>02 — AI APPLICATION</span>
+            <span>DEPLOYED</span>
+          </div>
+
+          <div class="project-split">
+            <div>
+              <div class="project-title">
+                <h3>LinkedIn Career Agent</h3>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+
+              <p class="project-intro">
+                Turning a career goal into a clearer next step.
+              </p>
+
+              <div class="project-bottom">
+                <p>
+                  An AI-powered assistant for profile audits, career
+                  roadmaps, internship eligibility, job-fit feedback,
+                  and conversational follow-up.
+                </p>
+
+                <div class="tags">
+                  <span>Python</span>
+                  <span>Claude API</span>
+                  <span>Apify</span>
+                  <span>Streamlit</span>
+                  <span>pytest</span>
+                  <span>JSON</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <a
+                  class="text-link"
+                  href="https://linkedin-agent-07.streamlit.app/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Live Demo ↗
+                </a>
+
+                <a
+                  class="text-link"
+                  href="https://github.com/vyomeshk2006-code/linkedin-Agent"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  View Code ↗
+                </a>
+              </div>
+            </div>
+
+            <div class="project-visual">
+              <div class="evidence screenshot">
+                <img
+                  src="assets/career-agent.png"
+                  alt="Actual LinkedIn Career Agent Streamlit interface with profile analysis, career roadmap, internships, job-fit score, and other tools"
+                  width="2856"
+                  height="1530"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="technical-details">
+            <h4>Inside the project</h4>
+
+            <div class="detail-grid">
+              <div>
+                <h4>Purpose & contribution</h4>
+
+                <p>
+                  I built a deployed career assistant with 10 user-facing
+                  features, combining profile information with
+                  Claude-powered analysis and a Streamlit interface.
+                </p>
+
+                <h4>How it works</h4>
+
+                <p>
+                  Apify supports profile retrieval, Claude provides
+                  analysis, and persistent JSON session memory carries
+                  context into follow-up conversations.
+                </p>
+              </div>
+
+              <div>
+                <h4>Testing & evidence</h4>
+
+                <p>
+                  The project includes 23 pytest cases using mocked API
+                  calls. Testing identified an input-validation bug that
+                  was fixed during development.
+                </p>
+
+                <h4>Before trying the demo</h4>
+
+                <p>
+                  The demo requires your own Anthropic and Apify API
+                  keys. Enter them only in the demo, never on this
+                  portfolio. AI-generated career feedback should be
+                  reviewed in context.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 03: Email Summarizer -->
+
+        <article class="project">
+          <div class="project-meta">
+            <span>03 — WORKFLOW AUTOMATION</span>
+            <span>PYTHON SERVICE</span>
+          </div>
+
+          <div class="project-split">
+            <div>
+              <div class="project-title">
+                <h3>Email Summarizer</h3>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+
+              <p class="project-intro">
+                Less inbox noise. A more focused start.
+              </p>
+
+              <div class="project-bottom">
+                <p>
+                  An automated Python service that retrieves recent Gmail
+                  messages, analyzes them with Claude, and emails a
+                  prioritized daily report.
+                </p>
+
+                <div class="tags">
+                  <span>Python</span>
+                  <span>Claude API</span>
+                  <span>Gmail API</span>
+                  <span>OAuth 2.0</span>
+                  <span>APScheduler</span>
+                  <span>Railway</span>
+                </div>
+              </div>
+
+              <div class="actions">
+                <a
+                  class="text-link"
+                  href="https://github.com/vyomeshk2006-code/Email-Summarizer"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  View Code ↗
+                </a>
+              </div>
+            </div>
+
+            <div class="project-visual">
+              <div
+                class="workflow"
+                role="img"
+                aria-label="Illustrative workflow: Gmail messages go through AI analysis to produce a prioritized summary"
+              >
+                <span class="workflow-label">
+                  ILLUSTRATIVE WORKFLOW
+                </span>
+
+                <div>
+                  <span class="flow-icon">✉</span>
+                  <strong>Gmail</strong>
+                  <small>Recent messages</small>
+                </div>
+
+                <span class="flow-arrow">→</span>
+
+                <div>
+                  <span class="flow-icon">✳</span>
+                  <strong>AI analysis</strong>
+                  <small>Claude API</small>
+                </div>
+
+                <span class="flow-arrow">→</span>
+
+                <div>
+                  <span class="flow-icon">≡</span>
+                  <strong>Prioritized summary</strong>
+                  <small>Delivered daily</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="technical-details">
+            <h4>Inside the project</h4>
+
+            <div class="detail-grid">
+              <div>
+                <h4>Purpose & contribution</h4>
+
+                <p>
+                  I connected Gmail retrieval, AI analysis, and email
+                  delivery into a scheduled Python service, with OAuth
+                  authentication and Railway deployment.
+                </p>
+
+                <h4>How it works</h4>
+
+                <p>
+                  The Gmail API retrieves recent messages. Claude
+                  organizes them into priority levels and suggested
+                  actions. APScheduler schedules execution, and the
+                  report is sent back by email.
+                </p>
+              </div>
+
+              <div>
+                <h4>Engineering focus</h4>
+
+                <p>
+                  OAuth 2.0, API integration, scheduled execution, and
+                  error handling turn an on-demand script into an
+                  automated workflow.
+                </p>
+
+                <h4>Limitations</h4>
+
+                <p>
+                  The service depends on valid Gmail authorization and
+                  API availability. AI-assigned priorities need human
+                  judgment. No public demo is available.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 04: SARAS -->
 
         <article class="project robot-project">
           <div class="project-meta">
@@ -605,6 +611,8 @@
         </article>
       </section>
 
+      <!-- Experience -->
+
       <section class="wrap section experience" id="experience">
         <p class="eyebrow">03 / EXPERIENCE</p>
 
@@ -631,6 +639,8 @@
           </p>
         </div>
       </section>
+
+      <!-- Education and Skills -->
 
       <section class="wrap section" id="education">
         <p class="eyebrow">04 / EDUCATION & SKILLS</p>
@@ -695,22 +705,9 @@
             </p>
           </div>
         </div>
-
-        <div class="certifications">
-          <h3>Continuing education</h3>
-
-          <p>
-            <strong>Machine Learning Specialization — Courses 1 & 2</strong><br>
-            Supervised Machine Learning & Advanced Learning Algorithms<br>
-            <span>DeepLearning.AI / Stanford Online through Coursera</span>
-          </p>
-
-          <p>
-            <strong>Advanced Python</strong><br>
-            <span>LinkedIn Learning</span>
-          </p>
-        </div>
       </section>
+
+      <!-- Contact -->
 
       <section class="contact section" id="contact">
         <div class="wrap">
